@@ -129,7 +129,7 @@ func main() {
 				}
 				nicIDs[i] = fmt.Sprintf("sakuracloud_switch.%s.id", utils.FormatHCL(sw.GetName()))
 			} else {
-				nicIDs[i] = "shared"
+				nicIDs[i] = "\"shared\""
 			}
 
 		}

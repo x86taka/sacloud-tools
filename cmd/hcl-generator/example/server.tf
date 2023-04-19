@@ -5,7 +5,7 @@ resource "sakuracloud_server" "test_ubuntu_01" {
   core   = 1
   memory = 1
 
-  disks = ["sakuracloud_disk.test_ubuntu_01.id"]
+  disks = [sakuracloud_disk.test_ubuntu_01.id]
 
   network_interface {
     upstream = "shared"
@@ -23,7 +23,7 @@ resource "sakuracloud_server" "test_ubuntu_02" {
   core   = 1
   memory = 1
 
-  disks = ["sakuracloud_disk.test_ubuntu_02.id"]
+  disks = [sakuracloud_disk.test_ubuntu_02.id]
 
   network_interface {
     upstream = "shared"
