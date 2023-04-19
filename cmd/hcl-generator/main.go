@@ -2,8 +2,7 @@ package main
 
 import (
 	"flag"
-	"os"
-
+	"fmt"
 	"github.com/sacloud/iaas-api-go"
 	"github.com/sacloud/iaas-api-go/types"
 	sacloudArchive "github.com/sacloud/iaas-service-go/archive"
@@ -15,6 +14,7 @@ import (
 	rswytch "github.com/x86taka/sacloud-tools/makehcl/resource/swytch"
 	"github.com/x86taka/sacloud-tools/makehcl/resource/utils"
 	"github.com/x86taka/sacloud-tools/makehcl/resource/vm"
+	"os"
 )
 
 var filePrefix = "output/"
@@ -127,7 +127,7 @@ func main() {
 					}
 					swytchOutput += swHCL.OutputHCL()
 				}
-				nicIDs[i] = sw.GetName()
+				nicIDs[i] = fmt.Sprintf("sakuracloud_switch.%s.id", utils.FormatHCL(sw.GetName()))
 			} else {
 				nicIDs[i] = "shared"
 			}
