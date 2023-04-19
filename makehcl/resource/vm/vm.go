@@ -54,16 +54,19 @@ func (v *VM) OutputHCL() string {
 	moduleBody.SetAttributeValue("memory", cty.NumberIntVal(v.Mem))
 	moduleBody.AppendNewline()
 	// Disk
-	diskList := []cty.Value{}
+	diskList := "["
 	for i := 0; i < len(v.Disks); i++ {
-		diskList = append(diskList, cty.StringVal(v.Disks[i]))
+		diskList += v.Disks[0]
 	}
-	moduleBody.SetAttributeValue("disks", cty.ListVal(diskList))
+	diskList += "]"
+	moduleBody.SetAttributeRaw("disks", hclwrite.Tokens{&hclwrite.Token{Bytes: []byte(diskList)}})
 	// Nic
 	moduleBody.AppendNewline()
 	for i := 0; i < len(v.Nics); i++ {
 		nic := moduleBody.AppendNewBlock("network_interface", []string{})
-		nic.Body().SetAttributeValue("upstream", cty.StringVal(v.Nics[i]))
+		nic.Body().SetAttributeRaw("upstream", hclwrite.Tokens{&hclwrite.Token{
+			Bytes: []byte(v.Nics[i]),
+		}})
 	}
 	// TimeOuts
 	moduleBody.AppendNewline()
