@@ -9,14 +9,11 @@ require (
 	github.com/zclconf/go-cty v1.12.1
 )
 
-require github.com/gammazero/deque v0.2.0 // indirect
-
 require (
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/andres-erbsen/clock v0.0.0-20160526145045-9e14626cd129 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
-	github.com/gammazero/workerpool v1.1.3
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.11.1 // indirect
@@ -33,7 +30,7 @@ require (
 	github.com/sacloud/go-http v0.1.3 // indirect
 	github.com/sacloud/packages-go v0.0.7 // indirect
 	go.uber.org/ratelimit v0.2.0 // indirect
-	golang.org/x/crypto v0.5.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
-	golang.org/x/text v0.6.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 )
