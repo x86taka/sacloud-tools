@@ -8,19 +8,20 @@ import (
 )
 
 type VM struct {
-	Name  string
-	Tags  []string
-	Cpus  int64
-	Mem   int64
-	Disks map[int]string
-	Nics  map[int]string
+	ResourceName string
+	Name         string
+	Tags         []string
+	Cpus         int64
+	Mem          int64
+	Disks        map[int]string
+	Nics         map[int]string
 }
 
 func (v *VM) OutputHCL() string {
 	f := hclwrite.NewEmptyFile()
 
 	rootBody := f.Body()
-	moduleBlock := rootBody.AppendNewBlock("resource", []string{"sakuracloud_server", utils.FormatHCL(v.Name)})
+	moduleBlock := rootBody.AppendNewBlock("resource", []string{"sakuracloud_server", utils.FormatHCL(v.ResourceName)})
 	moduleBody := moduleBlock.Body()
 
 	nameToken := hclwrite.Tokens{

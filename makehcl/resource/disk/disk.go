@@ -8,6 +8,7 @@ import (
 )
 
 type DiskHCL struct {
+	ResourceName    string
 	Name            string
 	Tags            []string
 	Size            int64
@@ -18,7 +19,7 @@ func (v *DiskHCL) OutputHCL() string {
 	f := hclwrite.NewEmptyFile()
 
 	rootBody := f.Body()
-	moduleBlock := rootBody.AppendNewBlock("resource", []string{"sakuracloud_disk", utils.FormatHCL(v.Name)})
+	moduleBlock := rootBody.AppendNewBlock("resource", []string{"sakuracloud_disk", utils.FormatHCL(v.ResourceName)})
 	moduleBody := moduleBlock.Body()
 
 	nameToken := hclwrite.Tokens{
