@@ -3,6 +3,7 @@ module github.com/x86taka/sacloud-tools
 go 1.19
 
 require (
+	github.com/gammazero/workerpool v1.1.3
 	github.com/hashicorp/hcl/v2 v2.15.0
 	github.com/sacloud/iaas-api-go v1.7.1
 	github.com/sacloud/iaas-service-go v1.5.0
@@ -14,6 +15,7 @@ require (
 	github.com/andres-erbsen/clock v0.0.0-20160526145045-9e14626cd129 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
+	github.com/gammazero/deque v0.2.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.11.1 // indirect
