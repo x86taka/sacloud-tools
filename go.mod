@@ -6,7 +6,7 @@ require (
 	github.com/gammazero/workerpool v1.1.3
 	github.com/hashicorp/hcl/v2 v2.22.0
 	github.com/sacloud/iaas-api-go v1.12.0
-	github.com/sacloud/iaas-service-go v1.9.2
+	github.com/sacloud/iaas-service-go v1.10.0
 	github.com/zclconf/go-cty v1.14.2
 )
 
