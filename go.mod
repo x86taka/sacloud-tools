@@ -7,8 +7,8 @@ toolchain go1.24.4
 require (
 	github.com/gammazero/workerpool v1.1.3
 	github.com/hashicorp/hcl/v2 v2.23.0
-	github.com/sacloud/iaas-api-go v1.15.0
-	github.com/sacloud/iaas-service-go v1.10.0
+	github.com/sacloud/iaas-api-go v1.16.0
+	github.com/sacloud/iaas-service-go v1.11.1
 	github.com/zclconf/go-cty v1.16.3
 )
 
@@ -30,16 +30,16 @@ require (
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
-	github.com/sacloud/api-client-go v0.2.10 // indirect
+	github.com/sacloud/api-client-go v0.3.0 // indirect
 	github.com/sacloud/ftps v1.2.0 // indirect
 	github.com/sacloud/go-http v0.1.9 // indirect
 	github.com/sacloud/packages-go v0.0.11 // indirect
 	go.uber.org/ratelimit v0.3.1 // indirect
-	golang.org/x/crypto v0.38.0 // indirect
-	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/sync v0.14.0 // indirect
+	golang.org/x/crypto v0.39.0 // indirect
+	golang.org/x/mod v0.25.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
+	golang.org/x/sync v0.15.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.25.0 // indirect
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
+	golang.org/x/text v0.26.0 // indirect
+	golang.org/x/tools v0.33.0 // indirect
 )
