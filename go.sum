@@ -93,6 +93,8 @@ github.com/sacloud/iaas-api-go v1.15.0 h1:G88U69OOVUSjOZ2fEP5QWMg7r3VOVsfNkl5Mxl
 github.com/sacloud/iaas-api-go v1.15.0/go.mod h1:AU6TM3giGEeyl/p1FAYfpwMDpkl7aLco2svdYXnrAfA=
 github.com/sacloud/iaas-api-go v1.16.0 h1:JUj7f5yHSSakhy0N8qsZ0a5IYpbUgsv4x5rN8pgRbEg=
 github.com/sacloud/iaas-api-go v1.16.0/go.mod h1:8BTuDTCTT6Ie08544+q5hT3GMyTf2DDxzt/XMuwmhgk=
+github.com/sacloud/iaas-api-go v1.16.1 h1:B5Lec9WyZkrOCjtGkVuPn5RxDm/zCzazVsHh7BQIjYQ=
+github.com/sacloud/iaas-api-go v1.16.1/go.mod h1:QVPHLwYzpECMsuml55I3FWAggsb4XSuzYGE9re/SkrQ=
 github.com/sacloud/iaas-service-go v1.9.2 h1:IAWsIJ1F5txAS38lN4x/iBvQl1NCIo5owFs+hFqFUmc=
 github.com/sacloud/iaas-service-go v1.9.2/go.mod h1:SrH2+QeaYd4W85tAK4/u3A7WXkOlnpLlaI1SDmH7Hj4=
 github.com/sacloud/iaas-service-go v1.10.0 h1:OP0z0LLNLaNTmN1CtGpjQowD4SP1zn77z1Iku1D7l9Q=
