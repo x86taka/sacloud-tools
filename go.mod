@@ -9,7 +9,7 @@ require (
 	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/sacloud/iaas-api-go v1.17.0
 	github.com/sacloud/iaas-service-go v1.13.0
-	github.com/zclconf/go-cty v1.16.3
+	github.com/zclconf/go-cty v1.16.4
 )
 
 require (
