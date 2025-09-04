@@ -2,7 +2,7 @@ module github.com/x86taka/sacloud-tools
 
 go 1.23.0
 
-toolchain go1.25.0
+toolchain go1.25.1
 
 require (
 	github.com/gammazero/workerpool v1.1.3
