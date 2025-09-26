@@ -1,13 +1,13 @@
 module github.com/x86taka/sacloud-tools
 
-go 1.23.0
+go 1.24.0
 
 toolchain go1.25.1
 
 require (
 	github.com/gammazero/workerpool v1.1.3
 	github.com/hashicorp/hcl/v2 v2.24.0
-	github.com/sacloud/iaas-api-go v1.17.1
+	github.com/sacloud/iaas-api-go v1.17.2
 	github.com/sacloud/iaas-service-go v1.13.0
 	github.com/zclconf/go-cty v1.17.0
 )
@@ -35,11 +35,11 @@ require (
 	github.com/sacloud/go-http v0.1.9 // indirect
 	github.com/sacloud/packages-go v0.0.11 // indirect
 	go.uber.org/ratelimit v0.3.1 // indirect
-	golang.org/x/crypto v0.41.0 // indirect
-	golang.org/x/mod v0.26.0 // indirect
-	golang.org/x/net v0.42.0 // indirect
-	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/sys v0.35.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
-	golang.org/x/tools v0.35.0 // indirect
+	golang.org/x/crypto v0.42.0 // indirect
+	golang.org/x/mod v0.27.0 // indirect
+	golang.org/x/net v0.43.0 // indirect
+	golang.org/x/sync v0.17.0 // indirect
+	golang.org/x/sys v0.36.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
+	golang.org/x/tools v0.36.0 // indirect
 )
