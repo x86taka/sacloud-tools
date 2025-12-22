@@ -28,6 +28,10 @@ github.com/go-playground/validator/v10 v10.23.0 h1:/PwmTwZhS0dPkav3cdK9kV1FsAmrL
 github.com/go-playground/validator/v10 v10.23.0/go.mod h1:dbuPbCMFw/DrkbEynArYaCwl3amGuJotoKCe95atGMM=
 github.com/go-test/deep v1.0.3 h1:ZrJSEWsXzPOxaZnFteGEfooLba+ju3FYIbOrS+rQd68=
 github.com/go-test/deep v1.0.3/go.mod h1:wGDj63lr65AM2AQyKZd/NYHGb0R+1RLqB8NKt3aSFNA=
+github.com/gofrs/flock v0.13.0 h1:95JolYOvGMqeH31+FC7D2+uULf6mG61mEZ/A8dRYMzw=
+github.com/gofrs/flock v0.13.0/go.mod h1:jxeyy9R1auM5S6JYDBhDt+E2TCo7DkratH4Pgi8P+Z0=
+github.com/golang-jwt/jwt/v5 v5.3.0 h1:pv4AsKCKKZuqlgs5sUmn4x8UlGa0kEVt/puTpKx9vvo=
+github.com/golang-jwt/jwt/v5 v5.3.0/go.mod h1:fxCRLWMO43lRc8nhHWY6LGqRcf+1gQWArsqaEUEa5bE=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/hashicorp/errwrap v1.0.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
@@ -81,6 +85,8 @@ github.com/sacloud/api-client-go v0.3.2 h1:INbdSpQbyGN9Ai4hQ+Gbv3UQcgtRPG2tJrOmq
 github.com/sacloud/api-client-go v0.3.2/go.mod h1:0p3ukcWYXRCc2AUWTl1aA+3sXLvurvvDqhRaLZRLBwo=
 github.com/sacloud/api-client-go v0.3.3 h1:ZpSAyGpITA8UFO3Hq4qMHZLGuNI1FgxAxo4sqBnCKDs=
 github.com/sacloud/api-client-go v0.3.3/go.mod h1:0p3ukcWYXRCc2AUWTl1aA+3sXLvurvvDqhRaLZRLBwo=
+github.com/sacloud/api-client-go v0.3.4 h1:2j8YAGk68qqS4gp52IDgUyRuYwkPHYY1jWsVEWTFVBs=
+github.com/sacloud/api-client-go v0.3.4/go.mod h1:axv150sa/th23rU1/EC5ZjNm2I8WyW7X2mkYNGoQKxs=
 github.com/sacloud/ftps v1.2.0 h1:7UlSWd7cnm1J+sANz7IiBV9ffVcS+4g6ZV5UHVVbvaw=
 github.com/sacloud/ftps v1.2.0/go.mod h1:h4awhOi3PEyhKLj1FpXjoVV5yVkmRUU+d5L95EwX2JU=
 github.com/sacloud/go-http v0.1.8 h1:ynreWA/vnM8G2ksbMlmefBHsXURKPz49qlPRqQ9IQdw=
@@ -123,6 +129,8 @@ github.com/sacloud/iaas-api-go v1.22.0 h1:nvLQNuxcfxILvoxA6WcnTjU9A8yv8dPI1OSYHA
 github.com/sacloud/iaas-api-go v1.22.0/go.mod h1:PLcolyFlby/0ExZTOdUf9xzhkEMBuVzORadXDNN21no=
 github.com/sacloud/iaas-api-go v1.23.1 h1:rjYG0vVoxWyETiwc7R8YdD7CIzs9vVNEOzu7w6dgGzc=
 github.com/sacloud/iaas-api-go v1.23.1/go.mod h1:EGIHOWRB9azOv7HPCVM8WpOEl28WIV9TNRbnEVg+Q3U=
+github.com/sacloud/iaas-api-go v1.24.0 h1:kZFgh1Vl0bcl6HdfFP4qdp0/K5BgGM4OImJVC7VDE5Y=
+github.com/sacloud/iaas-api-go v1.24.0/go.mod h1:rVTXbXHJMzBTu60BsTrw8Q5wW2F1Yd1VkOCXuFQ08P4=
 github.com/sacloud/iaas-service-go v1.9.2 h1:IAWsIJ1F5txAS38lN4x/iBvQl1NCIo5owFs+hFqFUmc=
 github.com/sacloud/iaas-service-go v1.9.2/go.mod h1:SrH2+QeaYd4W85tAK4/u3A7WXkOlnpLlaI1SDmH7Hj4=
 github.com/sacloud/iaas-service-go v1.10.0 h1:OP0z0LLNLaNTmN1CtGpjQowD4SP1zn77z1Iku1D7l9Q=
@@ -159,6 +167,8 @@ github.com/sacloud/packages-go v0.0.11 h1:hrRWLmfPM9w7GBs6xb5/ue6pEMl8t1UuDKyR/K
 github.com/sacloud/packages-go v0.0.11/go.mod h1:XNF5MCTWcHo9NiqWnYctVbASSSZR3ZOmmQORIzcurJ8=
 github.com/sacloud/packages-go v0.0.12 h1:MKeZNN3FQn1heqUSRBrbZw89YusZA1n4kammjMFZYvQ=
 github.com/sacloud/packages-go v0.0.12/go.mod h1:XNF5MCTWcHo9NiqWnYctVbASSSZR3ZOmmQORIzcurJ8=
+github.com/sacloud/saclient-go v0.2.4 h1:WeEvMmSuRxW/p6DWUYaabjVez7COnJ9sHQVFKmVWxVY=
+github.com/sacloud/saclient-go v0.2.4/go.mod h1:drjyL6uI3Hur0Y5EitGgqcuM42e9ifj1sKWtF/aS8eI=
 github.com/sergi/go-diff v1.0.0 h1:Kpca3qRNrduNnOQeazBd0ysaKrUJiIuISHxogkT9RPQ=
 github.com/sergi/go-diff v1.0.0/go.mod h1:0CfEIISq7TuYL3j771MWULgwwjU+GofnZX9QAmXWZgo=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
