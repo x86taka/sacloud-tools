@@ -5,7 +5,7 @@ go 1.25.5
 require (
 	github.com/gammazero/workerpool v1.1.3
 	github.com/hashicorp/hcl/v2 v2.24.0
-	github.com/sacloud/iaas-api-go v1.24.0
+	github.com/sacloud/iaas-api-go v1.24.1
 	github.com/sacloud/iaas-service-go v1.20.1
 	github.com/zclconf/go-cty v1.17.0
 )
