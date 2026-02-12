@@ -6,7 +6,7 @@ require (
 	github.com/gammazero/workerpool v1.1.3
 	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/sacloud/iaas-api-go v1.25.0
-	github.com/sacloud/iaas-service-go v1.22.1
+	github.com/sacloud/iaas-service-go v1.22.2
 	github.com/zclconf/go-cty v1.17.0
 )
 
@@ -36,11 +36,11 @@ require (
 	github.com/sacloud/packages-go v0.0.12 // indirect
 	github.com/sacloud/saclient-go v0.2.7 // indirect
 	go.uber.org/ratelimit v0.3.1 // indirect
-	golang.org/x/crypto v0.47.0 // indirect
-	golang.org/x/mod v0.31.0 // indirect
-	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/crypto v0.48.0 // indirect
+	golang.org/x/mod v0.32.0 // indirect
+	golang.org/x/net v0.49.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/text v0.33.0 // indirect
-	golang.org/x/tools v0.40.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/text v0.34.0 // indirect
+	golang.org/x/tools v0.41.0 // indirect
 )
