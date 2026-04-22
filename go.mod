@@ -1,11 +1,11 @@
 module github.com/x86taka/sacloud-tools
 
-go 1.25.5
+go 1.25.8
 
 require (
 	github.com/gammazero/workerpool v1.2.1
 	github.com/hashicorp/hcl/v2 v2.24.0
-	github.com/sacloud/iaas-api-go v1.26.0
+	github.com/sacloud/iaas-api-go v1.27.0
 	github.com/sacloud/iaas-service-go v1.23.0
 	github.com/zclconf/go-cty v1.18.1
 )
@@ -15,11 +15,11 @@ require (
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/benbjohnson/clock v1.3.5 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
-	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.13 // indirect
 	github.com/gammazero/deque v1.2.1 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.23.0 // indirect
+	github.com/go-playground/validator/v10 v10.30.2 // indirect
 	github.com/gofrs/flock v0.13.0 // indirect
 	github.com/golang-jwt/jwt/v5 v5.3.1 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
@@ -34,11 +34,11 @@ require (
 	github.com/sacloud/api-client-go v0.3.5 // indirect
 	github.com/sacloud/ftps v1.2.0 // indirect
 	github.com/sacloud/go-http v0.1.9 // indirect
-	github.com/sacloud/packages-go v0.0.12 // indirect
-	github.com/sacloud/saclient-go v0.3.6 // indirect
+	github.com/sacloud/packages-go v0.0.13 // indirect
+	github.com/sacloud/saclient-go v0.3.7 // indirect
 	go.uber.org/ratelimit v0.3.1 // indirect
 	golang.org/x/crypto v0.50.0 // indirect
-	golang.org/x/mod v0.34.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
 	golang.org/x/net v0.52.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
 	golang.org/x/sys v0.43.0 // indirect

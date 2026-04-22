@@ -12,6 +12,8 @@ github.com/fsnotify/fsnotify v1.7.0 h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nos
 github.com/fsnotify/fsnotify v1.7.0/go.mod h1:40Bi/Hjc2AVfZrqy+aj+yEI+/bRxZnMJyTJwOpGvigM=
 github.com/gabriel-vasile/mimetype v1.4.3 h1:in2uUcidCuFcDKtdcBxlR0rJ1+fsokWf+uqxgUFjbI0=
 github.com/gabriel-vasile/mimetype v1.4.3/go.mod h1:d8uq/6HKRL6CGdk+aubisF/M5GcPfT7nKyLpA0lbSSk=
+github.com/gabriel-vasile/mimetype v1.4.13 h1:46nXokslUBsAJE/wMsp5gtO500a4F3Nkz9Ufpk2AcUM=
+github.com/gabriel-vasile/mimetype v1.4.13/go.mod h1:d+9Oxyo1wTzWdyVUPMmXFvp4F9tea18J8ufA774AB3s=
 github.com/gammazero/deque v0.2.1 h1:qSdsbG6pgp6nL7A0+K/B7s12mcCY/5l5SIUpMOl+dC0=
 github.com/gammazero/deque v0.2.1/go.mod h1:LFroj8x4cMYCukHJDbxFCkT+r9AndaJnFMuZDV34tuU=
 github.com/gammazero/deque v1.2.1 h1:9fnQVFCCZ9/NOc7ccTNqzoKd1tCWOqeI05/lPqFPMGQ=
@@ -32,6 +34,8 @@ github.com/go-playground/validator/v10 v10.17.0 h1:SmVVlfAOtlZncTxRuinDPomC2DkXJ
 github.com/go-playground/validator/v10 v10.17.0/go.mod h1:9iXMNT7sEkjXb0I+enO7QXmzG6QCsPWY4zveKFVRSyU=
 github.com/go-playground/validator/v10 v10.23.0 h1:/PwmTwZhS0dPkav3cdK9kV1FsAmrL8sThn8IHr/sO+o=
 github.com/go-playground/validator/v10 v10.23.0/go.mod h1:dbuPbCMFw/DrkbEynArYaCwl3amGuJotoKCe95atGMM=
+github.com/go-playground/validator/v10 v10.30.2 h1:JiFIMtSSHb2/XBUbWM4i/MpeQm9ZK2xqPNk8vgvu5JQ=
+github.com/go-playground/validator/v10 v10.30.2/go.mod h1:mAf2pIOVXjTEBrwUMGKkCWKKPs9NheYGabeB04txQSc=
 github.com/go-test/deep v1.0.3 h1:ZrJSEWsXzPOxaZnFteGEfooLba+ju3FYIbOrS+rQd68=
 github.com/go-test/deep v1.0.3/go.mod h1:wGDj63lr65AM2AQyKZd/NYHGb0R+1RLqB8NKt3aSFNA=
 github.com/gofrs/flock v0.13.0 h1:95JolYOvGMqeH31+FC7D2+uULf6mG61mEZ/A8dRYMzw=
@@ -151,6 +155,8 @@ github.com/sacloud/iaas-api-go v1.25.0 h1:eZndjrEtVei4EmqEaH22V1J53JOD4VvBp+rzdT
 github.com/sacloud/iaas-api-go v1.25.0/go.mod h1:QY5J6p3+ng3jXoIFneGSA51HrtOvoqKFTaWVBKmuBt8=
 github.com/sacloud/iaas-api-go v1.26.0 h1:ob0Ygn+TtFFz9r6VU8MafFXLH+2JZpg/5TMuZSjfgFs=
 github.com/sacloud/iaas-api-go v1.26.0/go.mod h1:AyOox2uY54RtXOHojeSHAMR3x9ax+rolnKp1akHg0To=
+github.com/sacloud/iaas-api-go v1.27.0 h1:nFZaF1eQ2UUciiOD7SWMH6yAoNr481+KJIo4pEVH5CA=
+github.com/sacloud/iaas-api-go v1.27.0/go.mod h1:P+vb3H4b3WmV28WX9qazXp7ESWRkPu9xBTgMKsmQEhU=
 github.com/sacloud/iaas-service-go v1.9.2 h1:IAWsIJ1F5txAS38lN4x/iBvQl1NCIo5owFs+hFqFUmc=
 github.com/sacloud/iaas-service-go v1.9.2/go.mod h1:SrH2+QeaYd4W85tAK4/u3A7WXkOlnpLlaI1SDmH7Hj4=
 github.com/sacloud/iaas-service-go v1.10.0 h1:OP0z0LLNLaNTmN1CtGpjQowD4SP1zn77z1Iku1D7l9Q=
@@ -201,6 +207,8 @@ github.com/sacloud/packages-go v0.0.11 h1:hrRWLmfPM9w7GBs6xb5/ue6pEMl8t1UuDKyR/K
 github.com/sacloud/packages-go v0.0.11/go.mod h1:XNF5MCTWcHo9NiqWnYctVbASSSZR3ZOmmQORIzcurJ8=
 github.com/sacloud/packages-go v0.0.12 h1:MKeZNN3FQn1heqUSRBrbZw89YusZA1n4kammjMFZYvQ=
 github.com/sacloud/packages-go v0.0.12/go.mod h1:XNF5MCTWcHo9NiqWnYctVbASSSZR3ZOmmQORIzcurJ8=
+github.com/sacloud/packages-go v0.0.13 h1:9ADnqKEr2JTCmC5TZPXjrJ/aQBg6QjE3dJlKVy/NCag=
+github.com/sacloud/packages-go v0.0.13/go.mod h1:reS4C3Y1iA18J7kE8GVIPrvI9SU1ujm1v5/ASpiRvSg=
 github.com/sacloud/saclient-go v0.2.4 h1:WeEvMmSuRxW/p6DWUYaabjVez7COnJ9sHQVFKmVWxVY=
 github.com/sacloud/saclient-go v0.2.4/go.mod h1:drjyL6uI3Hur0Y5EitGgqcuM42e9ifj1sKWtF/aS8eI=
 github.com/sacloud/saclient-go v0.2.6 h1:LwBlo+r40hEVxzR90wz3A3IpL0FZM7ZT8cLWhxxgQPo=
@@ -211,6 +219,8 @@ github.com/sacloud/saclient-go v0.3.1 h1:s9Yx4arEgsoIWkULO9s3gNv03XRGR0eNOQ9z6iI
 github.com/sacloud/saclient-go v0.3.1/go.mod h1:OLit87m1GmGwFwlaoQwF2UWyaad4Pa2jfPeVgx91s4s=
 github.com/sacloud/saclient-go v0.3.6 h1:SIsFWgxqUtB4zRxMAXMoCHNHZWx7F0WwB80jDt9nlA4=
 github.com/sacloud/saclient-go v0.3.6/go.mod h1:h8ATHi9AnQhOxYNm8mbVWyM9/2569PPESIGwAc2SNg4=
+github.com/sacloud/saclient-go v0.3.7 h1:LAkOHStYxIKoypiaarhNOwm/JPuubgoKuOSXZWEerbc=
+github.com/sacloud/saclient-go v0.3.7/go.mod h1:h8ATHi9AnQhOxYNm8mbVWyM9/2569PPESIGwAc2SNg4=
 github.com/sergi/go-diff v1.0.0 h1:Kpca3qRNrduNnOQeazBd0ysaKrUJiIuISHxogkT9RPQ=
 github.com/sergi/go-diff v1.0.0/go.mod h1:0CfEIISq7TuYL3j771MWULgwwjU+GofnZX9QAmXWZgo=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
@@ -298,6 +308,8 @@ golang.org/x/mod v0.32.0 h1:9F4d3PHLljb6x//jOyokMv3eX+YDeepZSEo3mFJy93c=
 golang.org/x/mod v0.32.0/go.mod h1:SgipZ/3h2Ci89DlEtEXWUk/HteuRin+HHhN+WbNhguU=
 golang.org/x/mod v0.34.0 h1:xIHgNUUnW6sYkcM5Jleh05DvLOtwc6RitGHbDk4akRI=
 golang.org/x/mod v0.34.0/go.mod h1:ykgH52iCZe79kzLLMhyCUzhMci+nQj+0XkbXpNYtVjY=
+golang.org/x/mod v0.35.0 h1:Ww1D637e6Pg+Zb2KrWfHQUnH2dQRLBQyAtpr/haaJeM=
+golang.org/x/mod v0.35.0/go.mod h1:+GwiRhIInF8wPm+4AoT6L0FA1QWAad3OMdTRx4tFYlU=
 golang.org/x/net v0.23.0 h1:7EYJ93RZ9vYSZAIb2x3lnuvqO5zneoD6IvWjuhfxjTs=
 golang.org/x/net v0.23.0/go.mod h1:JKghWKKOSdJwpW2GEx0Ja7fmaKnMsbu+MWVZTokSYmg=
 golang.org/x/net v0.25.0 h1:d/OCCoBEUq33pjydKrGQhw7IlUPI2Oylr+8qLx49kac=
