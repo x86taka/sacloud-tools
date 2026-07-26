@@ -7,12 +7,13 @@ require (
 	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/sacloud/iaas-api-go v1.29.2
 	github.com/sacloud/iaas-service-go v1.25.1
-	github.com/zclconf/go-cty v1.18.1
+	github.com/zclconf/go-cty v1.19.0
 )
 
 require (
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
+	github.com/apparentlymart/go-textseg/v17 v17.0.1 // indirect
 	github.com/benbjohnson/clock v1.3.5 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.13 // indirect
