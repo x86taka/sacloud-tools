@@ -3,7 +3,7 @@ module github.com/x86taka/sacloud-tools
 go 1.26
 
 require (
-	github.com/gammazero/workerpool v1.2.2
+	github.com/gammazero/workerpool v1.3.0
 	github.com/hashicorp/hcl/v2 v2.25.0
 	github.com/sacloud/iaas-api-go v1.29.3
 	github.com/sacloud/iaas-service-go v1.25.2
